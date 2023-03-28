@@ -1,0 +1,16 @@
+Q: Use this table to illustrate one of each kind of anomaly described in the task.
+In a text file called anomalies.txt, how you would change the table and
+which anomaly that change would create.
+
+A: 
+Update anomalies:
+In the example, if the Vendor Name changes for example "Bulbs and ladders" no longer supply us, but "Game" does. To update all the information correct.
+ 
+Insertion anomalies:
+We can not update the "PROD_NUM, SALE_DATE, PROD_LABEL, VEND_CODE, VEND_NAME, QUANT_SOLD, PROD_PRICE" until we know the INV_NUM.
+
+Deletion anomalies:
+Example we can not delete this line:
+211349	TF-7465023Q	17-Jun-2018	2m ladder 	207	Tall Things 	1 	R699,99
+
+It would cause us to lose information about the Vendor and product name/price.
